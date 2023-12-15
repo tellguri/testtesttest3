@@ -18,10 +18,8 @@
 </script>
 <style>
   .sticky-footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    left: 0;
-    right: 0;
     background: white;
     padding: 1rem;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
@@ -31,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
-    padding-bottom: 4rem; /* Space for the sticky footer */
+    margin-bottom: 4rem; /* Space for the sticky footer */
   }
   .item-container::-webkit-scrollbar {
     width: 2px;
